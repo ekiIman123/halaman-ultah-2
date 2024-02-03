@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>for ninon</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="speaker" onclick="toggleAudio()">
+      <div class="content-speaker">
+        <img src="asset/speaker.png" alt="" class="start" />
+        <img src="asset/forbidden.png" alt="" class="stop" />
+        <audio
+          src="asset/Jamrud - Selamat ulang tahun.mp3"
+          loop
+          class="music"
+        ></audio>
+      </div>
+      <div class="desc">
+        <p>Click for play</p>
+      </div>
+    </div>
+
+    <div class="q1">
+      <h2>Seberapa sayang kamu sama aku?</h2>
+      <div class="a1">
+        <div class="yes" onclick="yes1()">
+          <p>Bangettttttt</p>
+        </div>
+        <div class="no" onclick="moveNo1()">
+          <p>GA</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="q2">
+      <h2>Make a proof</h2>
+      <div class="a2">
+        <div class="later" onclick="moveNo2()">
+          <p>Nanti</p>
+        </div>
+        <div class="next" onclick="yes2()">
+          <p>Udah</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="q3">
+      <div class="content-q3">
+        <img src="asset/W9k1.gif" alt="" class="rumbai" />
+        <h1 class="capt">Selamat Ulang Tahun Sayang 💗💗</h1>
+        <p>liat aku..</p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
